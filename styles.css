@@ -4,5 +4,8 @@ body {
     text-align: center;
     }
 img{
-    border: solid 3px;   
+    border: solid 3px;
+}
+.h2{
+  font-style: italic;
 }
