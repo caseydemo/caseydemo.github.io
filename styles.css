@@ -6,6 +6,10 @@ body {
     font-family: 'Ubuntu Condensed', sans-serif;
     text-align: center;
     }
+p { 
+  background-color: #8ABB55;
+  }
+
 
 img{
     border: solid 3px;
@@ -14,3 +18,5 @@ img{
     width: 100%;
     height: auto;
     }
+
+
