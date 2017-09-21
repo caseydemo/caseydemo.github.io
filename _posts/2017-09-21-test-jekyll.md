@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "whatup, jekyll"
+title: "A new friend - github."
 ---
-# My first blog post!
+# A new friend - github.
 
 ## woohoo!
