@@ -1,12 +1,7 @@
-<DOCTYPE html>
-<html>
-
-  <!--HEADER -->
-  <head>
-    <link  href="/styles.css" type="text/css" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet">
-    <title>Casey DeMattina</title>
-  </head>
+---
+layout: default
+title: Casey's Personal Page
+---
 
   <!-- BODY -->
   <body>
@@ -14,6 +9,14 @@
     <h1>Casey DeMattina</h1>
     <h2>Awesome Inc U - student</h2>
     <h1>About Me</h1>
+
+      <ul>
+    {% for post in site.posts %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
 
     <!-- About me section -->
     <div class="text">
@@ -23,14 +26,5 @@
     <br>
     <br>
 
-    <!-- Social Media Links, Yo -->
-    <a href="https://github.com/caseydemo" target="_blank">GitHub</a> |
-    <a href="https://stackoverflow.com/users/8490119/casey-demattina" target="_blank">stackoverflow</a> |
-    <a href="https://www.linkedin.com/in/casey-demattina-29aa98103/" target="_blank">LinkedIn</a> |
-    <a href="https://twitter.com/caseydemo" target="_blank">Twitter</a> |
-    <a href="https://www.facebook.com/cdemattina" target="_blank">Facebook</a>
-
   </body>
 
-<!-- CLOSING HTML TAG -->
-</html>
