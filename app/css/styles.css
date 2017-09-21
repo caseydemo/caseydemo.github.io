@@ -3,7 +3,14 @@
 
 body {
   font-family: 'Ubuntu Condensed', sans-serif;
-  text-align: center; }
+  text-align: center;
+  margin: 20px; }
+
+p {
+  margin: 200px; }
+
+.navbar-text {
+  background-color: #333030; }
 
 img {
   border: solid 3px;
