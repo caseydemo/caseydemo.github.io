@@ -4,7 +4,8 @@
 body {
   font-family: 'Ubuntu Condensed', sans-serif;
   text-align: center;
-  margin: 20px; }
+  margin: 20px; 
+  padding-bottom: 70px;}
 
 p {
   margin: 200px; }
