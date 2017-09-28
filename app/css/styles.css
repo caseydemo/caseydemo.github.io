@@ -5,8 +5,8 @@
 body {
   font-family: 'Ubuntu Condensed', sans-serif;
   text-align: center;
-  margin: 20px; 
-  padding-bottom: 70px;}
+  /*margin: 20px; */
+  /*padding-bottom: 70px;}*/
 /*
 p {
   margin: 200px; }
@@ -14,6 +14,6 @@ p {
 img {
   border: solid 3px;
   display: block;
-  margin: 0 auto;
+  margin: auto;
   /*width: 100%;*/
   height: auto; }
