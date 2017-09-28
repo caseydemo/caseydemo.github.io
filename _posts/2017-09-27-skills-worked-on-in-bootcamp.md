@@ -4,15 +4,16 @@
 * HTML 
 * CSS
 * bootstrap
-* SASS
-* Gulp
-* Heroku
+* SASS 
+* Gulp - it's many dependencies
+* Heroku - quick access to servers
 * Jekyll
 * github
 * github pages
 
 ## Week 2
-* Mocha
-* Chai
-* Agile/SCRUM
+* Javascript (Weather project, Calculator project)
+* Mocha (testing)
+* Chai(testing)
+* Agile/SCRUM (workflow)
 * 
