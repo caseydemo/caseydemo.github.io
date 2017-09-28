@@ -31,13 +31,14 @@ title: Casey's Personal Page
 
      <a href="https://stank.herokuapp.com/">link</a>
 
-      <ul>
+      
     {% for post in site.posts %}
-      <li>
+      
         <a href="{{ post.url }}">{{ post.title }}</a>
-      </li>
+        |
+      
     {% endfor %}
-  </ul>
+  
 
     <br>
     <br>
