@@ -1,6 +1,6 @@
 #Week 2 - Sept 27
 
-* [I'm an inline-style link](https://www.w3schools.com/jsref/prop_element_classlist.asp)
+* [element.classlist](https://www.w3schools.com/jsref/prop_element_classlist.asp)
 * Dev Tools (shift + ctrl + I)
 * View Source (ctrl + u)
 * Javascript Console (shift + ctrl + j)
