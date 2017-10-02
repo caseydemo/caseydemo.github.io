@@ -14,6 +14,8 @@
 	a.forEach(function(element) {
 	    console.log(element);
 	});
+* [Janine's vue demo](https://github.com/bootcamp-f17/vue-inline-editor)
+* [Janine's version of project 1](https://github.com/jhempy/project1)
 
 
 
