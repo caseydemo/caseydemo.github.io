@@ -4,7 +4,8 @@
 body {
   font-family: 'Ubuntu Condensed', sans-serif;
   text-align: center;
-  margin: 20px; }
+  margin: 20px; 
+  background-color: #D3D3D3;}
 
 img {
   border: solid 3px;
