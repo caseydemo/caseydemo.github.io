@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "second post"
+title: "bacon words"
 ---
 
 # this is literally just text from bacon ipsum generator

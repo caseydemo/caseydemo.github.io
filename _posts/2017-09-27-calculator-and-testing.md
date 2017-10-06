@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "second post"
+title: "Notes Sep 27"
 ---
 
 # Week 2 - Sept 27

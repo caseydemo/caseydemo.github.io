@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "second post"
+title: "Vue"
 ---
 
 # Vue Week day two

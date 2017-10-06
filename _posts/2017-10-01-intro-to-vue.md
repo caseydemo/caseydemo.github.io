@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "second post"
+title: "notes Oct 1"
 ---
 
 # Week 3 - October 1

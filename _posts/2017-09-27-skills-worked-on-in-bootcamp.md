@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "second post"
+title: "bootcamp skills"
 ---
 
 # Bootcamp Skills so far (week 2)
