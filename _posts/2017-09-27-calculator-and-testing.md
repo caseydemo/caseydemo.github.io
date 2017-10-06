@@ -3,7 +3,7 @@ layout: default
 title: "second post"
 ---
 
-#Week 2 - Sept 27
+# Week 2 - Sept 27
 
 * [element.classlist](https://www.w3schools.com/jsref/prop_element_classlist.asp)
 * Dev Tools (shift + ctrl + I)
