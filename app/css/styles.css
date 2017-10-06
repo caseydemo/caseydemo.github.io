@@ -1,11 +1,16 @@
 * {
-  background-color: #D3D3D3; }
-
+  background-color: #D3D3D3; 
+  }
 body {
   font-family: 'Ubuntu Condensed', sans-serif;
   text-align: center;
   margin: 20px; 
-  background-color: #D3D3D3;}
+  background-color: #D3D3D3;
+  }
+    h1{
+    font-size: 90px;
+    margin: 2px;
+  }
 
 img {
   border: solid 3px;
