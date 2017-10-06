@@ -1,3 +1,8 @@
+---
+layout: default
+title: "second post"
+---
+
 # Week 3 - October 1
 
 # things I have questions about

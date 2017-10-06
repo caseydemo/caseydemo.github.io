@@ -1,3 +1,8 @@
+---
+layout: default
+title: "second post"
+---
+
 # Vue Week day two
 
 * vue is a javascript framework 

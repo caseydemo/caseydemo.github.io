@@ -1,3 +1,8 @@
+---
+layout: default
+title: "second post"
+---
+
 # Bootcamp Skills so far (week 2)
 
 ## Week 1
