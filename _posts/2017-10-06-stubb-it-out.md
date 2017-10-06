@@ -28,11 +28,13 @@ So here’s my basic recap of the process when prepping to code as I understand 
 5. Go in to your actual project folder and STUBB IT OUT
 	- This is the magic. Write a function for each thing you want to happen - even if you don’t have any earthly idea how to make that thing happen. 
 
+----
+function thingToHappen(){
 
-##function thingToHappen(){
-##	// short description of what you want to happen
-##}
+	// short description of what you want to happen
+}
 
+----
 
 6. Mentally step throug your stubb steps 
 	- At this point you’ll start to see 
