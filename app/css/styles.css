@@ -31,9 +31,15 @@ img {
   height: 500px;
    
 }
-  ul{
-  	text-decoration: none;
-  	}
+
+ul{
+  	list-style-type: none;
+}
+
+li{
+ list-style-type: none;
+}
+
     #bottom-navbar{
         font-size:25px;
     }
