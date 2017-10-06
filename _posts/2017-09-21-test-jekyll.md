@@ -8,9 +8,3 @@ So of the new technologies that I'm learning at bootcamp, github has to be the c
 
 Mostly it's cool because it makes it way easier to keep track of files. If you mess up your files locally, you can just pull down a fresh copy of code and go nuts. It's a bit daunting - mostly cause it's all CLI (command line interface), but it's something I have been using pretty much 8 hours a day every day so I'm getting the hang of it. Almost like learning a new Point of sale at a new job. It's going to click and I'll stop worrying as much about the details. 
 
-{% for post in site.posts %}
-      
-        <a href="{{ post.url }}">{{ post.title }}</a>
-        |
-      
-    {% endfor %}

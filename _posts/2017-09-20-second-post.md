@@ -9,9 +9,3 @@ title: "second post"
 
 Picanha hamburger tail jerky salami bacon leberkas. Doner sirloin turkey spare ribs alcatra chicken. T-bone pork sirloin biltong jerky. Short loin corned beef flank, porchetta pork loin pork belly hamburger spare ribs drumstick tail picanha. Alcatra short ribs tongue turkey pork loin pancetta tenderloin biltong.
 
-{% for post in site.posts %}
-      
-        <a href="{{ post.url }}">{{ post.title }}</a>
-        |
-      
-    {% endfor %}
