@@ -20,7 +20,7 @@ body {
     margin: 2px;
   }
   h3{
-    padding:1px;
+    padding:10px;
   }
 
 img {
@@ -31,10 +31,30 @@ img {
   height: 500px;
    
 }
-  ul{
-  	text-decoration: none;
-  	}
+.screenshot{
+  border: solid 3px;
+  display: block;
+  margin: 0 auto;
+  width: auto;
+  height: 200px;
+}
+
+ul{
+  	list-style-type: none;
+    text-align: center;
+}
+
+li{
+  text-align: center;
+ list-style-type: none;
+}
+
     #bottom-navbar{
         font-size:25px;
     }
+.link-list{
+  font-size: 25px;
+  text-align: center;
+  margin: auto;
+}
 
