@@ -1,53 +1,23 @@
 ---
 layout: default
-title: Casey's Personal Page
+title: Blog blog blog
 ---
-
-
 <!DOCTYPE html>
 <html>
-
 <head>
-    <!-- // google font "ubuntu condensed" -->
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet">
-    
-    <!-- // local stylesheet in app/css folder   -->
-    <link  href="app/css/styles.css" type="text/css" rel="stylesheet"/>
-    
 	<title>Casey D's Posts</title>
 </head>
 <body>
+    <br>
+    <br>
+    {% for post in site.posts %}
 
-<div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="https://caseydemo.github.io/">Home</a>
-        <a class="navbar-brand" href="about-me.html">About Me</a>
-        <a class="navbar-brand" href="portfolio.html">Portfolio</a>
-        <a class="navbar-brand" href="post-directory.html">Blog</a> 
-
-        <div class="nav navbar-nav navbar-right">
-        <a class="navbar-brand" href="https://github.com/caseydemo" target="_blank">Git Hub</a>
-        <a class="navbar-brand" href="https://www.linkedin.com/in/casey-demattina-29aa98103/" target="_blank">
-        Linked In</a>
-        <a class="navbar-brand" href="https://stackoverflow.com/users/8490119/casey-demattina" target="_blank">Stack Overflow</a>
-        <a class="navbar-brand" href="https://www.facebook.com/cdemattina" target="_blank">Facebook</a> 
-
-        </div>       
-      </div>
-    </div>
-
-<h1 id="main-header"> blog posts</h1>
-
-	
-	
-
-	{% for post in site.posts %}
-      
-        <a href="{{ post.url }}">{{ post.title }}</a>
-        |
-      
+        <div class="col-md-6">
+            
+                <a class="btn-lg" href="{{ post.url }}">{{ post.title }}</a>
+           
+        </div>
     {% endfor %}
   <img src="images/felix-drums.jpg">
-
 </body>
 </html>

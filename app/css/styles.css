@@ -1,8 +1,11 @@
-* {
-  /*background-color: #D3D3D3; */
-  }
   .navbar{
     margin-bottom: 5px;
+  }
+  .container{
+    margin: auto;
+    width: 50%;
+    /*border: 3px solid green;*/
+    padding: 10px;
   }
 body {
   font-family: 'Ubuntu Condensed', sans-serif;
@@ -14,13 +17,15 @@ body {
     position: relative;
     padding-top: 20px;
   }
-    h1{
+  h1{
+    text-align:center;
     margin-top: 20px;
     font-size: 90px;
     margin: 2px;
   }
   h3{
     padding:10px;
+    text-align: center;
   }
 
 img {
@@ -48,13 +53,35 @@ li{
   text-align: center;
  list-style-type: none;
 }
-
-    #bottom-navbar{
-        font-size:25px;
-    }
 .link-list{
   font-size: 25px;
   text-align: center;
   margin: auto;
 }
-
+a{
+  font-weight: bolder;
+  font-size: 20px;
+}
+#page-title{
+  padding-top: 75px;
+}
+.navbar-left{
+  padding-left: 25px;
+}
+.navbar-right{
+  padding-right: 25px;
+}
+.col-md-6{
+  /*width: 300px;
+  height: 75px;*/
+  /*column-count: 2*/
+  text-align: center;
+  padding-top: 25px;
+}
+.btn-lg{
+  background-color: #404146;
+  text-decoration-color: white;
+}
+.pre{
+  width:50%;
+}
