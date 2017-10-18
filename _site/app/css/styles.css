@@ -10,8 +10,13 @@
 body {
   font-family: 'Ubuntu Condensed', sans-serif;
   text-align: center;
-  margin: 20px; 
   background-color: #D3D3D3;
+  }
+  p{
+    text-align: left;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 20px;
   }
   #main-header{
     position: relative;
@@ -26,8 +31,10 @@ body {
   h3{
     padding:10px;
     text-align: center;
+    text-decoration: underline;
+    font-weight: bolder;
   }
-
+  
 img {
   border: solid 3px;
   display: block;
@@ -50,8 +57,11 @@ ul{
 }
 
 li{
-  text-align: center;
- list-style-type: none;
+  text-align: left;
+ /*list-style-type: none;*/
+ font-size: 20px;
+ margin-left: 200px;
+ margin-right: 200px;
 }
 .link-list{
   font-size: 25px;
@@ -71,17 +81,38 @@ a{
 .navbar-right{
   padding-right: 25px;
 }
-.col-md-6{
-  /*width: 300px;
-  height: 75px;*/
-  /*column-count: 2*/
-  text-align: center;
-  padding-top: 25px;
-}
 .btn-lg{
+
   background-color: #404146;
   text-decoration-color: white;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 250px;
+  padding-left:auto:;
+  padding-right:auto;
+          
+
 }
 .pre{
   width:50%;
+}
+.blog-links{
+  font-size: 30px;
+}
+.blog-dates{
+  font-size: 20px;
+}
+.blog-exerpts{
+  font-size: 25px;
+}
+.highlight{
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+code{
+  font-size: 45px;
+  font-weight: bolder;
 }

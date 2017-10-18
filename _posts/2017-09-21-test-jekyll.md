@@ -2,7 +2,6 @@
 layout: default
 title: "github's pretty neat."
 ---
-# github. like it.
 
 So of the new technologies that I'm learning at bootcamp, github has to be the coolest. So far at least. Well technically it's "git" thats the actual software, but github is the place I keep going to. So heres how I understand it: git is what is called version control and it helps programmers to keep track of collaborative work. Theres a central repository (github) that all the collaboraters work from, and there are a whole set of rules that regulate what people can and can't do to the code. The rules keep the code safe. So people can't just put whatever craziness in there and ruin other people's work. 
 

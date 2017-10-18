@@ -1,6 +1,6 @@
-# Problem Solving Method
 
-## Stubb it out
+
+<h3>Stubb it out</h3>
 
 So at bootcamp yesterday we discussed a problem solving process. It’s not called stubb it out… no now it’s called that. Yes. It’s called stubb it out. It follows a logical approach to solving a problem - probably the normal process any logical minded person would take naturally. However, while we were going over it I realized that I was blurring the lines in my own problem solving process and kindof getting things jumbled. In other words - instead of breaking down my coding endeavours into clearly defined bite-size chunks and going step and a time I was taking a fluid approach. And yeah, that wasn’t working too well. It actually reminded me of when I first started playing the drums. 
 

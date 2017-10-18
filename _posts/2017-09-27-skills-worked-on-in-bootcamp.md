@@ -2,10 +2,6 @@
 layout: default
 title: "bootcamp skills"
 ---
-
-# Bootcamp Skills so far (week 2)
-
-## Week 1
 * HTML 
 * CSS
 * bootstrap
@@ -15,8 +11,6 @@ title: "bootcamp skills"
 * Jekyll
 * github
 * github pages
-
-## Week 2
 * Javascript (Weather project, Calculator project)
 * Mocha (testing)
 * Chai(testing)

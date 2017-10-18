@@ -3,8 +3,6 @@ layout: default
 title: "Notes Sep 25"
 ---
 
-# Week 2 - Sept 25
-
 
 * API - Application Program Interface https://medium.freecodecamp.org/what-is-an-api-in-english-please-b880a3214a82
 	<link rel="stylesheet" href="style.css"> *** CSS ***

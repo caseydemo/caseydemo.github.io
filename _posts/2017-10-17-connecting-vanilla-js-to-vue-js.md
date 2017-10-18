@@ -1,4 +1,4 @@
-<h1 display.style="center">Connecting Javascript to Vue js</h1>
+<h3>Connecting Javascript to Vue js</h3>
 
 Today we revisited some of the more fundamental aspects of vue js by comparing them to their vanilla js counterpart. Specifically we worked together as a class to recreate tic-tac-toe which we previously did in regular javascript as the same app but this time using vue. Not only did we work through it as a class but... I got to type the dang thing in front of the class. So yeah it was hands on. 
 

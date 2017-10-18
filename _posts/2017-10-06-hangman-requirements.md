@@ -1,11 +1,4 @@
-<center><h1> Hangman </h1></center>
-
-<center><h2>  List the requirements </h2></center>
-<center><h2> In english, step through what you think you should do </h2></center>
-<center><h2> Stubb out rough functions </h2></center>
-<center><h2> Refactor & repeat </h2></center>
-
-
+<h3> Hangman </h3>
 
 1. what are the requirements?
 	* initial state 

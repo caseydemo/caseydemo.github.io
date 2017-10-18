@@ -1,5 +1,4 @@
-# Vue Component Notes 
-### October 12, 2017
+
 
 * this flips the thingy
 ```

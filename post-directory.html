@@ -10,14 +10,24 @@ title: Blog blog blog
 <body>
     <br>
     <br>
-    {% for post in site.posts %}
 
-        <div class="col-md-6">
-            
-                <a class="btn-lg" href="{{ post.url }}">{{ post.title }}</a>
-           
-        </div>
+
+
+	{% for post in site.posts %}
+		<div style="margin-bottom:6%" style="text-align:center">
+		    <h3><a class="blog-links" href="{{ post.url }}">{{ post.title }}</a></h3>
+		    <h4 class="blog-dates">{{ post.date | date: "%B %d %Y" }}</h4>
+		    <!-- <h3 class="blog-exerpts">{{ post.excerpt }}</h3> -->
+		</div>
+	{% endfor %}
+
+
+    <!-- <div class="col-xs-12">
+    {% for post in site.posts %}
+        <a class="btn-lg" href="{{ post.url }}">{{ post.title }}</a>
     {% endfor %}
+    </div> -->
+
   <img src="images/felix-drums.jpg">
 </body>
 </html>
