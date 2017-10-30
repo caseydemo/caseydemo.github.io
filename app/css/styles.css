@@ -1,6 +1,20 @@
-  .navbar{
+.navbar{
     margin-bottom: 5px;
   }
+.navbar-brand{
+  border-color: white;
+  margin-top: 10px;
+  line-height: 20px;
+  /*margin-bottom: 20px;*/
+  }
+i{
+  height: 40px;
+  width: 40px;
+  margin-top: 0px;
+  vertical-align: middle;
+  
+
+}
   .container{
     width: 50%;
     margin: auto;
@@ -79,6 +93,7 @@ a{
 }
 .navbar-right{
   padding-right: 25px;
+  margin-bottom: 30px;
 }
 .btn-lg{
 
