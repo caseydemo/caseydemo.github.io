@@ -1,12 +1,21 @@
 .navbar{
-    margin-bottom: 5px;
+    margin-bottom: 0px;
+    height: 80px;
+    /*display: block;*/
   }
 .navbar-brand{
   border-color: white;
-  margin-top: 10px;
+  margin-top: 20px;
   line-height: 20px;
   /*margin-bottom: 20px;*/
   }
+.nav navbar-nav navbar-right{
+  border-color: white;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  line-height: 20px;
+  /*margin-bottom: 20px;*/
+}
 i{
   height: 40px;
   width: 40px;
@@ -32,10 +41,10 @@ body {
     margin-right: 200px;
     font-size: 20px;
   }
-  #main-header{
+/*  #main-header{
     position: relative;
     padding-top: 20px;
-  }
+  }*/
   h1{
     text-align:center;
     margin-top: 20px;
@@ -57,10 +66,11 @@ img {
    
 }
 .screenshot{
-  border: solid 3px;
+  border-style: none;
   display: block;
-  margin: 0 auto;
-  width: 300px;
+  margin-left: 20px;
+  margin-right: 20px;
+  max-width: 300px;
   height: 200px;
 }
 
@@ -86,7 +96,8 @@ a{
   font-size: 20px;
 }
 #page-title{
-  padding-top: 75px;
+  margin-top: 135px;
+  display: block;
 }
 .navbar-left{
   padding-left: 25px;
@@ -138,10 +149,16 @@ code{
   margin-bottom: 20px;
 }
 .portfolio-item{
-  margin-top:100px;
+  margin-top:40px;
   display: inline-block;
 
 }
-/*.spacer{
-  height: 200px;
-}*/
+.blog-text{
+  margin-top: 75px;
+}
+.heroku-icon, .github-icon{
+  display: inline-block;
+  width: 100px;
+  height: auto;
+  border-style: none;
+}

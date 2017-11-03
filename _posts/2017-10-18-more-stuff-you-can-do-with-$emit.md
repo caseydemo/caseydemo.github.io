@@ -1,3 +1,10 @@
+---
+layout: posts
+title: "Tic Tac Toe Help"
+---
+
+# Tic Tac Toe Help
+
 this is from a message I posted in the slack channel "need help"
 
 caseydemo [9:42 PM] 

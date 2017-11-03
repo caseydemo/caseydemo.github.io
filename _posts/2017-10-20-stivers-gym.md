@@ -1,4 +1,11 @@
-Stivers Strength Gym – a barbell social club 
+---
+layout: posts
+title: "Stivers Strength Gym"
+---
+
+
+# Stivers Strength Gym 
+## a barbell social club 
 (thats their line, not mine)
 
 So this post is about a strength training gym – but let me be clear here, I’m not in shape at the moment of writing this. Far from it. However, I’m interested in getting in better shape and I am seeking a program I can get behind. I have a hard time with group exercise classes because I find the incessant “encouragement” incredibly annoying. Specifically when it comes to cardio. For some reason I am ok with somone pushing me to be stronger. It’s just when somone is pushing me to do a lunge to the best of my ability that I am like…. Man who cares? 
