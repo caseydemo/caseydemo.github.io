@@ -1,23 +1,26 @@
 .navbar{
-    margin-bottom: 0px;
     height: 80px;
-    /*display: block;*/
+    padding:0px;
   }
-.navbar-brand{
-  border-color: white;
-  margin-top: 20px;
-  line-height: 20px;
-  /*margin-bottom: 20px;*/
+  .navbar.navbar-inverse.navbar-fixed-top{
+    padding:0px;
+    height: 80px;
   }
-.nav navbar-nav navbar-right{
-  border-color: white;
-  margin-top: 10px;
-  margin-bottom: 30px;
-  line-height: 20px;
-  /*margin-bottom: 20px;*/
+
+.navbar-left{
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 30px;
 }
+.navbar-right{
+  padding-top: 10px;
+  margin-left: 50px;
+  margin-right: 20px;
+}
+
 i{
   height: 40px;
+  height: 375%;
   width: 40px;
   margin-top: 0px;
   vertical-align: middle;
@@ -25,10 +28,8 @@ i{
 
 }
   .container{
-    width: 50%;
+    width: 100%;
     margin: auto;
-    /*border: 3px solid green;*/
-    padding: 10px;
   }
 body {
   font-family: 'Ubuntu Condensed', sans-serif;
@@ -41,15 +42,10 @@ body {
     margin-right: 200px;
     font-size: 20px;
   }
-/*  #main-header{
-    position: relative;
-    padding-top: 20px;
-  }*/
+
   h1{
     text-align:center;
-    margin-top: 20px;
     font-size: 90px;
-    margin: 2px;
   }
   h3{
     padding:10px;
@@ -96,16 +92,10 @@ a{
   font-size: 20px;
 }
 #page-title{
-  margin-top: 135px;
+  margin-top: 5px;
   display: block;
 }
-.navbar-left{
-  padding-left: 25px;
-}
-.navbar-right{
-  padding-right: 25px;
-  margin-bottom: 30px;
-}
+
 .btn-lg{
 
   background-color: #404146;
@@ -155,10 +145,4 @@ code{
 }
 .blog-text{
   margin-top: 75px;
-}
-.heroku-icon, .github-icon{
-  display: inline-block;
-  width: 100px;
-  height: auto;
-  border-style: none;
 }
