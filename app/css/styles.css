@@ -1,10 +1,8 @@
-.navbar{
-    height: 80px;
-    padding:0px;
-  }
-  .navbar.navbar-inverse.navbar-fixed-top{
+
+  .navbar.navbar-inverse{
     padding:0px;
     height: 80px;
+    margin-bottom: 0px;
   }
 
 .navbar-left{
@@ -15,7 +13,7 @@
 .navbar-right{
   padding-top: 10px;
   margin-left: 50px;
-  margin-right: 20px;
+  margin-right: 40px;
 }
 
 i{
@@ -145,4 +143,17 @@ code{
 }
 .blog-text{
   margin-top: 75px;
+}
+.navbar-icon{
+  color: #a3a1a1;
+}
+.navbar-icon:hover{
+  color: #a3a1a1;
+}
+.navbar-icon:active{
+  color: #a3a1a1;
+}
+
+.navbar-link:hover{
+  text-decoration: none;
 }
