@@ -1,4 +1,11 @@
+---
+layout: posts
+title: "Vue Basics"
+excerpt_separator: <!--more-->
+---
+## Vue - a front-end framework
 
+<!--more-->
 
 * this flips the thingy
 ```

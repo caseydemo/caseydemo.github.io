@@ -50,13 +50,7 @@ i.fa.fa-3x{
     width: 100%;
     margin: auto;
   }
-  p{
-    text-align: left;
-    margin-left: 200px;
-    margin-right: 200px;
-    font-size: 20px;
-    line-height: 50px;
-  }
+
 
   h1{
     text-align:center;
@@ -90,13 +84,12 @@ img {
 }
 
 ul{
-  	list-style-type: none;
-    text-align: center;
+  	list-style-type: disc;
+    text-align: left;
 }
 
 li{
   text-align: left;
- /*list-style-type: none;*/
  font-size: 20px;
  margin-left: 200px;
  margin-right: 200px;
@@ -113,6 +106,7 @@ a{
 #page-title{
   margin-top: 5px;
   display: block;
+  font-size: 50px;
 }
 
 .btn-lg{
@@ -131,14 +125,35 @@ a{
 .pre{
   width:50%;
 }
+.blog-entry{
+  margin-bottom:6%;
+  text-align:left;
+}
 .blog-links{
-  font-size: 30px;
 }
 .blog-dates{
-  font-size: 20px;
 }
 .blog-exerpts{
-  font-size: 25px;
+}
+.blog-list{
+  text-align: left;
+  width: 75%;
+  margin:auto;
+  background-color: #935347;
+  list-style: circle;
+}
+.outer-blog-list{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.list-group{
+  width: 75%;
+  margin:auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.list-group-item{
+  height: 50px;
 }
 .highlight{
   width: 800px;
@@ -150,14 +165,16 @@ code{
   font-size: 45px;
   font-weight: bolder;
 }
-.about-me-paragraph{
+.about-me-paragraph, .blog-text{
   width: 75%;
   margin-left: 200px;
+      text-align: left;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 20px;
+    line-height: 50px;
 }
-p{
-  width: 80%;
-  margin:auto;
-}
+
 .about-me-img{
   width: 500px;
   margin-bottom: 20px;
@@ -168,8 +185,16 @@ p{
 
 }
 .blog-text{
-  margin-top: 75px;
+  margin-top: 5px;
 }
 .carousel-container{
   margin-bottom: 50px;
+}
+.excerpt{
+  font-size: 50px;
+  background-color: red;
+
+}
+.list-title{
+  background-color: #c7ad88;
 }

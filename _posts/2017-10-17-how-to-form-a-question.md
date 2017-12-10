@@ -1,3 +1,11 @@
+---
+layout: posts
+title: "Structuring a Question"
+excerpt_separator: <!--more-->
+---
+## Structuring a Question
+
+<!--more-->
 
 so one thing I have learned in the bootcamp is how to properly ask a question. Or more specifically, how to structure the question process and document it properly. The question process is an opportunity to document what the problem is, what you think the solution is, what you've tried (so you know it doesn't work), and what you hope to get to happen. 
 

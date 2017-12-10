@@ -8,26 +8,25 @@ title: Blog blog blog
 	<title>Casey D's Posts</title>
 </head>
 <body>
-    <br>
-    <br>
 
-
-
+<div class="list-group">
+<div class="list-group-item list-group-item-action flex-column align-items-start list-title">Technical Blog Posts</div>
 	{% for post in site.posts %}
-		<div style="margin-bottom:6%" style="text-align:center">
-		    <h3><a class="blog-links" href="{{ post.url }}">{{ post.title }}</a></h3>
-		    <h4 class="blog-dates">{{ post.date | date: "%B %d %Y" }}</h4>
-		    <!-- <h3 class="blog-exerpts">{{ post.excerpt }}</h3> -->
-		</div>
-	{% endfor %}
+  <a href="{{ post.url }}" class="hvr-shutter-out-horizontal list-group-item list-group-item-action flex-column align-items-start ">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">{{ post.title }}</h5>
+      <small>{{ post.date | date: "%B %d %Y" }}</small>
+    </div>
+    {{ post.title }}
+          <small>{{ post.date | date: "%B %d %Y" }}</small>
 
+    <!-- <p class="excerpt">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p> -->
+  </a>
+  {% endfor %}
+</div>
 
-    <!-- <div class="col-xs-12">
-    {% for post in site.posts %}
-        <a class="btn-lg" href="{{ post.url }}">{{ post.title }}</a>
-    {% endfor %}
-    </div> -->
-
-  <img src="images/felix-drums.jpg">
 </body>
 </html>
+
+
+<!-- ![My helpful screenshot]({{ "/assets/screenshot.jpg" | absolute_url }}) -->
