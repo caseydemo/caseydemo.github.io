@@ -1,44 +1,61 @@
-
-  .navbar.navbar-inverse{
-    padding:0px;
-    height: 80px;
-    margin-bottom: 0px;
-  }
-
-.navbar-left{
-  margin-left: 10px;
-  margin-right: 10px;
-  padding-top: 30px;
-}
-.navbar-right{
-  padding-top: 10px;
-  margin-left: 50px;
-  margin-right: 40px;
-}
-
-i{
-  height: 40px;
-  height: 375%;
-  width: 40px;
-  margin-top: 0px;
-  vertical-align: middle;
-  
-
-}
-  .container{
-    width: 100%;
-    margin: auto;
-  }
 body {
   font-family: 'Ubuntu Condensed', sans-serif;
   text-align: center;
-  background-color: #D3D3D3;
+  background-color: #64706c;
+  color:#ede9ce;
+  }
+  .navbar{
+    padding:0px;
+    height: 80px;
+    margin-bottom: 0px;
+    background-color: #000;
+  }
+.navbar-link{
+  margin-left: 20px;
+  margin-right: 20px;
+  color: white;
+}
+.navbar-left{
+  margin-left: 10px;
+  margin-right: 30px;
+  padding-top: 0px;
+}
+.navbar-right{
+  margin:auto;
+  margin-right: 15px;
+}
+i.fa.fa-3x{
+  width: 50px;
+  height: auto;
+
+}
+.navbar-icon{
+  color: white;
+  width: 15px;
+  height: auto;
+   margin:auto;
+  margin-right: 50px;
+}
+.navbar-icon:hover{
+  color: white;
+}
+.navbar-icon:active{
+  color: white;
+}
+
+.navbar-link:hover{
+  text-decoration: none;
+}
+.container{
+    width: 100%;
+    margin: auto;
   }
   p{
     text-align: left;
     margin-left: 200px;
     margin-right: 200px;
     font-size: 20px;
+    line-height: 50px;
   }
 
   h1{
@@ -51,7 +68,11 @@ body {
     text-decoration: underline;
     font-weight: bolder;
   }
-  
+.carousel-img{
+   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+
+}
 img {
   border: solid 3px;
   display: block;
@@ -130,7 +151,12 @@ code{
   font-weight: bolder;
 }
 .about-me-paragraph{
-
+  width: 75%;
+  margin-left: 200px;
+}
+p{
+  width: 80%;
+  margin:auto;
 }
 .about-me-img{
   width: 500px;
@@ -144,16 +170,6 @@ code{
 .blog-text{
   margin-top: 75px;
 }
-.navbar-icon{
-  color: #a3a1a1;
-}
-.navbar-icon:hover{
-  color: #a3a1a1;
-}
-.navbar-icon:active{
-  color: #a3a1a1;
-}
-
-.navbar-link:hover{
-  text-decoration: none;
+.carousel-container{
+  margin-bottom: 50px;
 }
