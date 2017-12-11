@@ -76,14 +76,14 @@ img {
    
 }
 .screenshot{
+  cursor: pointer;
   border-style: none;
   display: inline-block;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
   max-width: 300px;
   height: 200px;
 }
-
 ul{
   	list-style-type: disc;
     text-align: left;
@@ -181,8 +181,8 @@ code{
   margin-bottom: 20px;
 }
 .portfolio-item{
-  margin-top:40px;
   display: inline-block;
+
   
 
 }
@@ -218,10 +218,8 @@ button.stivers{
   cursor: pointer;
 }
 .final-project{
-  margin-left: 350px;
-  margin-bottom: 50px;
-  margin-top: 20px;
-  width: 50%;
+  cursor: pointer;
+  width: 500px;
   height: auto;
 }
 .portfolio-icon{
@@ -233,7 +231,7 @@ button.stivers{
   border-style: none;
   display: block;
   margin:auto;
-  margin-top: 50px;
+  margin-top: 0px;
   margin-bottom: 15px;
   max-width: 500px;
   height: auto;
@@ -252,4 +250,7 @@ button.stivers{
 }
 .modal-header{
   text-align: center;
+}
+.heroku-icon{
+  
 }
