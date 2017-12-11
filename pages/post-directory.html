@@ -14,11 +14,10 @@ title: Blog blog blog
 	{% for post in site.posts %}
   <a href="{{ post.url }}" class="hvr-shutter-out-horizontal list-group-item list-group-item-action flex-column align-items-start ">
     <div class="d-flex w-100 justify-content-between">
-      <h5 class="mb-1">{{ post.title }}</h5>
-      <small>{{ post.date | date: "%B %d %Y" }}</small>
+      
     </div>
-    {{ post.title }}
-          <small>{{ post.date | date: "%B %d %Y" }}</small>
+    <p>{{ post.title }}</p>
+          <p><small>{{ post.date | date: "%B %d %Y" }}</small></p>
 
     <!-- <p class="excerpt">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p> -->
   </a>

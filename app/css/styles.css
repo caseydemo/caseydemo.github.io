@@ -147,13 +147,13 @@ a{
   padding-bottom: 15px;
 }
 .list-group{
-  width: 75%;
+  width: 40%;
   margin:auto;
-  margin-top: 50px;
+  margin-top: 20px;
   margin-bottom: 100px;
 }
 .list-group-item{
-  height: 50px;
+  height: 100px;
 }
 .highlight{
   width: 800px;
@@ -197,4 +197,15 @@ code{
 }
 .list-title{
   background-color: #c7ad88;
+  text-align: center;
+  margin:auto;
+}
+.list-group-item.list-group-item-action.flex-column.align-items-start.list-title{
+  font-size: 50px;
+  font-weight: bold;
+}
+.card-block{
+  font-size: 50px;
+  font-weight: bold;
+  color:black;
 }
