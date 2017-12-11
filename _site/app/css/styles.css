@@ -91,8 +91,8 @@ ul{
 li{
   text-align: left;
  font-size: 20px;
- margin-left: 200px;
- margin-right: 200px;
+ margin-left: 0px;
+ margin-right: 0px;
 }
 .link-list{
   font-size: 25px;
@@ -208,4 +208,14 @@ code{
   font-size: 50px;
   font-weight: bold;
   color:black;
+}
+.blog-ul{
+  margin-left: 200px;
+}
+button.stivers{
+  cursor: pointer;
+}
+.final-project{
+  margin-left: 200px;
+  width: 50px;
 }

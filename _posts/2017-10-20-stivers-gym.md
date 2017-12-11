@@ -43,7 +43,11 @@ These are some elements I loved about their website:
 
 <p class="blog-text"> I referred to this website often when making my final project, Venue-Hunter. With everything on my site I made great efforts to always make the user experience easy. 
 
-so great job, guy who developed their website! I’m a big fan!</p>
+so great job, guy who developed their website! I’m a big fan! </p>
 
 
-<a href="http://stiversstrength.com/"><button >Stivers Strength Gym</button></a>
+
+<a href="http://stiversstrength.com/" target="_blank"><button class="stivers hvr-grow">Stivers Strength Gym</button></a> 
+<br>
+<p class="blog-text">Heres their link</p>
+
