@@ -99,6 +99,7 @@ li{
   text-align: center;
   margin: auto;
   border:none;
+  display: inline-block;
 }
 a.link-list{
   outline: none;
@@ -277,4 +278,14 @@ i.fa.fa-github{
 .close-button{
   margin:auto;
   cursor: pointer;
+}
+.sub-heading{
+  margin-left: 250px;
+  margin-right: 250px;
+  font-size: 25px;
+  font-weight: bolder;
+
+}
+.card-body{
+  color:black;
 }
