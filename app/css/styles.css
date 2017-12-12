@@ -28,7 +28,6 @@ body {
 i.fa.fa-3x{
   width: 50px;
   height: auto;
-
 }
 .navbar-icon{
   color: white;
@@ -99,6 +98,10 @@ li{
   font-size: 25px;
   text-align: center;
   margin: auto;
+  border:none;
+}
+a.link-list{
+  outline: none;
 }
 a{
   font-weight: bolder;
@@ -182,9 +185,14 @@ code{
 }
 .portfolio-item{
   display: inline-block;
-
-  
-
+  outline: none;
+  border-style: none; 
+}
+img.portfolio-icon{
+  outline: none;
+  border-style: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .blog-text{
   margin-top: 5px;
@@ -223,9 +231,18 @@ button.stivers{
   height: auto;
 }
 .portfolio-icon{
-  width: 50px;
+  width: 100px;
+  margin:auto;
+  margin-bottom: 10px;
   height: auto;
   display: inline-block;
+  outline: none;
+}
+.portfolio-icon:hover{
+  color: #ede9ce;
+}
+.portfolio-icon:active{
+  color: #ede9ce;
 }
 .portfolio-screenshot{
   border-style: none;
@@ -251,6 +268,13 @@ button.stivers{
 .modal-header{
   text-align: center;
 }
-.heroku-icon{
-  
+.close{
+  cursor: pointer;
+}
+i.fa.fa-github{
+  color: white;
+}
+.close-button{
+  margin:auto;
+  cursor: pointer;
 }
