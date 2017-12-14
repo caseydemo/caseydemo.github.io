@@ -100,8 +100,12 @@ li{
   font-size: 25px;
   text-align: center;
   margin: auto;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
   border:none;
   display: inline-block;
+  max-width: 300px;
+  max-height: 200px;
 }
 a.link-list{
   outline: none;
@@ -201,6 +205,9 @@ img.portfolio-icon{
   margin-right: 35px;
   margin-top: 0px;
   margin-bottom: 0px;
+  max-width: 100px;
+  height: auto;
+
 }
 .blog-text{
   margin-top: 5px;
@@ -239,12 +246,13 @@ button.stivers{
   height: auto;
 }
 .portfolio-icon{
-  width: 100px;
+  max-width: 400px;
   margin:auto;
   margin-bottom: 10px;
-  height: auto;
+  max-height: 200px;
   display: inline-block;
   outline: none;
+  color: white;
 }
 .portfolio-icon:hover{
   color: #ede9ce;
@@ -304,4 +312,7 @@ i.fa.fa-github{
 }
 .card-body{
   color:black;
+}
+#phpModal .modal-dialog{
+  width:75%;
 }
