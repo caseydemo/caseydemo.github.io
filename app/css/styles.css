@@ -191,9 +191,14 @@ code{
   outline: none;
   border-style: none; 
 }
+.portfolio-text{
+  line-height: 35px;
+  margin-bottom: 0px;
+}
 img.portfolio-icon{
   outline: none;
   border-style: none;
+  margin-right: 35px;
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -252,7 +257,16 @@ button.stivers{
   display: block;
   margin:auto;
   margin-top: 0px;
-  margin-bottom: 15px;
+  margin-bottom: 0px;
+  max-width: 200px;
+  height: auto;
+}
+.gif-screenshot{
+  border-style: none;
+  display: block;
+  margin:auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
   max-width: 400px;
   height: auto;
 }
