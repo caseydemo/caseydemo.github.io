@@ -36,7 +36,7 @@ i.fa.fa-3x{
   color: white;
   width: 15px;
   height: auto;
-   margin:auto;
+  margin:auto;
   margin-right: 50px;
 }
 .navbar-icon:hover{
@@ -50,21 +50,19 @@ i.fa.fa-3x{
   text-decoration: none;
 }
 .container{
-    width: 100%;
-    margin: auto;
+  width: 100%;
+  margin: auto;
+}
+h1{
+  text-align:center;
+  font-size: 90px;
   }
-
-
-  h1{
-    text-align:center;
-    font-size: 90px;
-  }
-  h3{
-    padding:10px;
-    text-align: center;
-    text-decoration: underline;
-    font-weight: bolder;
-  }
+h3{
+  padding:10px;
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bolder;
+}
 .carousel-img{
    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
@@ -81,14 +79,27 @@ img {
   cursor: pointer;
   border-style: none;
   display: inline-block;
-  margin:20px;
+  margin-left: 65px;
   max-width: 300px;
   height: 200px;
 }
-ul{
-  	list-style-type: disc;
-    text-align: left;
+.large-icons{
+  cursor: pointer;
+  border-style: none;
+  display: inline-block;
+  margin: 40px;
+  margin-bottom: 20px;
+  max-width: 300px;
+  height: 200px;
+
 }
+ul{
+  	
+    text-align: left;
+    margin-left: 60px;
+    display: list-item;
+    text-indent: -40px;
+  }
 
 li{
   text-align: left;
@@ -121,7 +132,6 @@ a{
 }
 
 .btn-lg{
-
   background-color: #404146;
   text-decoration-color: white;
   display: block;
@@ -130,21 +140,13 @@ a{
   width: 250px;
   padding-left:auto:;
   padding-right:auto;
-          
-
-}
+  }
 .pre{
   width:50%;
 }
 .blog-entry{
   margin-bottom:6%;
   text-align:left;
-}
-.blog-links{
-}
-.blog-dates{
-}
-.blog-exerpts{
 }
 .blog-list{
   text-align: left;
@@ -179,11 +181,11 @@ code{
 .about-me-paragraph, .blog-text{
   width: 75%;
   margin-left: 200px;
-      text-align: left;
-    margin-left: 200px;
-    margin-right: 200px;
-    font-size: 20px;
-    line-height: 50px;
+  text-align: left;
+  margin-left: 200px;
+  margin-right: 200px;
+  font-size: 20px;
+  line-height: 50px;
 }
 
 .about-me-img{
@@ -196,6 +198,9 @@ code{
   border-style: none; 
 }
 .portfolio-text{
+  text-align: left;
+  margin-left: 30px;
+  margin-right: 30px;
   line-height: 35px;
   margin-bottom: 0px;
 }
@@ -270,12 +275,12 @@ button.stivers{
   height: auto;
 }
 .gif-screenshot{
-  border-style: none;
+  border-style: solid black;
   display: block;
   margin:auto;
   margin-top: 0px;
   margin-bottom: 0px;
-  max-width: 400px;
+  width: 800px;
   height: auto;
 }
 .modal-title{
@@ -289,6 +294,7 @@ button.stivers{
 }
 .modal-content{
   background-color: #935347;
+
 }
 .modal-header{
   text-align: center;
@@ -313,6 +319,22 @@ i.fa.fa-github{
 .card-body{
   color:black;
 }
-#phpModal .modal-dialog{
-  width:75%;
+#venueHunterModal .modal-content{
+  width:900px;
+}
+#venueHunterModal .modal-dialog{
+  width: 1000px;
+  margin-left: 200px;
+}
+.portfolio-button{
+  font-size: 20px;
+  display: inline-block;
+  width: 175px;
+  text-indent: 2px;
+  background-color: #64706c;
+  color:#ede9ce;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
