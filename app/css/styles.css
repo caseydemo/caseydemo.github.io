@@ -320,6 +320,8 @@ i.fa.fa-github{
   color:black;
 }
 #venueHunterModal .modal-content{
+  margin-left:auto;
+  margin-right: auto;
   width:900px;
 }
 #venueHunterModal .modal-dialog{
